@@ -37,5 +37,3 @@ The system provides a simple, web-based interface for marking attendance, genera
 SIKSHALOG demonstrates a low-cost, scalable attendance automation model for rural schools. It aims to improve accuracy, reduce teacher workload, and enhance transparency in resource allocation through the use of AI and privacy-respecting technology.
 
 ---
-
-Would you like me to add a **“Future Roadmap” section** (like planned modules: dashboard, teacher login, offline sync, government report generation)? It’ll make the README more complete for submission and GitHub viewers.
