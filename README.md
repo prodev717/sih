@@ -1,12 +1,41 @@
-# React + Vite
+# SIKSHALOG - Smart Attendance Management System for Rural Schools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Problem Statement ID:** 25012
+**Problem Statement Title:** Automated Attendance System for Rural Schools
+**Hackathon:** Smart India Hackathon (SIH) 2025
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+**SIKSHALOG** is an AI-powered smart attendance system designed for rural schools in India. It replaces time-consuming manual roll calls with automated face recognition and fingerprint-based verification. Built with an **offline-first architecture**, it works reliably even in low-connectivity areas, helping teachers save time, reduce manual errors, and ensure accurate reporting for government programs like the Mid-Day Meal Scheme.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The system provides a simple, web-based interface for marking attendance, generating reports, and ensuring fair allocation of resources. This prototype demonstrates real-time **face recognition** and **sample UI**, with additional features planned for future releases.
+
+---
+
+## Tech Stack (prototype)
+
+* **Frontend:** React.js, TailwindCSS
+* **Face Recognition:** [Face-API.js](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
+* **Backend (Planned):** Express.js
+* **Database (Planned):** MongoDB
+* **Deployment:** Netlify
+
+---
+
+## Live Prototype
+
+[https://sikshalog.netlify.app/](https://sikshalog.netlify.app/)
+
+*(Initial web prototype showcasing face recognition and basic user interface. Full functionality, including fingerprint backup and analytics dashboard, will be implemented in future versions.)*
+
+---
+
+## Summary
+
+SIKSHALOG demonstrates a low-cost, scalable attendance automation model for rural schools. It aims to improve accuracy, reduce teacher workload, and enhance transparency in resource allocation through the use of AI and privacy-respecting technology.
+
+---
+
+Would you like me to add a **“Future Roadmap” section** (like planned modules: dashboard, teacher login, offline sync, government report generation)? It’ll make the README more complete for submission and GitHub viewers.
